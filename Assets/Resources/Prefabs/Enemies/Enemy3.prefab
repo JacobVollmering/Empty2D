@@ -49,7 +49,7 @@ MonoBehaviour:
   maxmana: 100
   STR: 10
   INT: 25
-  charname: Enemy2
+  charname: Enemy3
   abilities:
   - {fileID: 1517870087784057502, guid: ef979a6f26b01fd4298fb98a44292912, type: 3}
   - {fileID: 7637887339514909071, guid: c075cfcfaec04be43949e0e659633b03, type: 3}
