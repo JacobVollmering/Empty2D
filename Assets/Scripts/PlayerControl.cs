@@ -47,6 +47,9 @@ public class PlayerControl : MonoBehaviour
                  Input.GetAxis("Vertical")),
                  1)*Time.deltaTime*speed;*/
     }
+
+
+
     void LateUpdate()
     {
         oldpos = transform.position;
