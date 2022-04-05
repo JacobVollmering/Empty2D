@@ -20,9 +20,7 @@ public class PlayerControl : MonoBehaviour
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
-
-
-
+        animator = gameObject.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -50,11 +48,20 @@ public class PlayerControl : MonoBehaviour
         else
         {
             rb.velocity = new Vector2(0f, 0f);
+            ChangeAnimationState(PLAYER_IDLE);
         }
     }
 
-    void ChangeAnimationState(string newSate)
+    void ChangeAnimationState(string newState)
     {
+        //Stop animation from interrupting itself
+        if (currentState == newState) return;
+
+        //Play new animation
+        animator.Play(newState);
+
+        //Update Current state
+        currentState = newState;
 
     }
 
