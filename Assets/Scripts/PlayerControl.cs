@@ -52,6 +52,11 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        print("Another object has entered the trigger");
+    }
+
     void ChangeAnimationState(string newState)
     {
         //Stop animation from interrupting itself
