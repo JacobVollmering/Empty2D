@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class LavaDamage : MonoBehaviour
 {
@@ -11,10 +10,6 @@ public class LavaDamage : MonoBehaviour
         {
             FindObjectOfType<PlayerStats>().DoDamage(1);
             Debug.Log("Yeowch!");
-        }
-        if (collision.gameObject.tag == "Enemy")
-        {
-            SceneManager.LoadScene("Battle Scene");
         }
     }
     // Start is called before the first frame update
