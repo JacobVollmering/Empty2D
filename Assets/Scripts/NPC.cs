@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class NPC : MonoBehaviour
         {
             DisplayMessage();
         }
+        SceneManager.LoadScene("BattleScene");
     }
     // Start is called before the first frame update
     void Start()
