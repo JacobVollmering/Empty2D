@@ -747,7 +747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Action:'
+  m_Text: 
 --- !u!222 &545246181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -881,7 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
+  m_ScaleFactor: 0.25
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -1549,7 +1549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.409668, y: -399.99243}
+  m_AnchoredPosition: {x: -2.4101562, y: -399.9922}
   m_SizeDelta: {x: -62.6494, y: -906.007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277804319
