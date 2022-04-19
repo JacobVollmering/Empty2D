@@ -623,6 +623,7 @@ GameObject:
   - component: {fileID: 836355404}
   - component: {fileID: 836355403}
   - component: {fileID: 836355401}
+  - component: {fileID: 836355402}
   m_Layer: 0
   m_Name: Yellow Emeny
   m_TagString: Player
@@ -660,6 +661,19 @@ MonoBehaviour:
   maxX: 3
   walkRight: 1
   speed: 0.5
+--- !u!114 &836355402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836355399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e75d687b67f014d926be0b2f6a39e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Ooof, why you bump into me?
 --- !u!114 &836355403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -869,6 +883,7 @@ GameObject:
   - component: {fileID: 917223613}
   - component: {fileID: 917223612}
   - component: {fileID: 917223609}
+  - component: {fileID: 917223610}
   m_Layer: 0
   m_Name: Red Enemy
   m_TagString: Player
@@ -906,6 +921,19 @@ MonoBehaviour:
   maxX: 3
   walkRight: 1
   speed: 0.5
+--- !u!114 &917223610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917223607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9e75d687b67f014d926be0b2f6a39e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Ooof, why you bump into me?
 --- !u!60 &917223612
 PolygonCollider2D:
   m_ObjectHideFlags: 0
